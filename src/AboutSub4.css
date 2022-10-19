@@ -1,0 +1,11 @@
+.vloggers{
+    border: 2px solid red;
+    height: 350px;
+    margin: 240px 0px;
+}
+
+.vloggersHeading{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 2px 490px;
+}

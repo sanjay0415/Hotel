@@ -1,0 +1,62 @@
+/* this is used for div that is used in return */
+.time{
+    border: 7px double #950000;
+    margin: 80px 263px;
+    padding: 49px 73px;
+    animation: changeBack 20s linear infinite;
+    border-radius: 35px;
+    box-shadow: -2px 7px 20px 10px #bce1f3;
+}
+
+/* this is first line of greeting*/
+.greetingCss1{
+    margin: 7px 134px;
+    font-size: 35px;
+}
+
+/* this is third line of greeting*/
+.greetingCss2{
+    margin: 7px 33px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* this is second line of greeting*/
+.currtimeCss{
+    margin: 25px 130px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+@keyframes changeBack{
+    0%{
+        background-image: url("../public/foodBackground/back1.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; */
+    }
+    20%{
+        background-image: url("../public/foodBackground/back2.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; */
+    }
+    40%{
+        background-image: url("../public/foodBackground/back3.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; */
+    }
+    60%{
+        background-image: url("../public/foodBackground/back4.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; */
+    }
+    80%{
+        background-image: url("../public/foodBackground/back5.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; */
+    }
+    100%{
+        background-image: url("../public/foodBackground/back1.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; */
+    }
+}

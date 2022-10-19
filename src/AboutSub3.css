@@ -1,0 +1,38 @@
+.branchAddress{
+    margin: 186px 540px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.branches1{
+    /* border: 2px solid red; */
+    margin: -172px 82px;
+    height: 321px;
+    display: flex;
+}
+
+.branch1{
+    /* border: 2px solid red; */
+    height: 295px;
+    width: 284px;
+    margin: 2px 6px;
+}
+
+.branchImg{
+    height: 190px;
+    width: 249px;
+    margin: 2px 13px;
+    border-radius: 10px;
+}
+
+.branchP1{
+    margin: -46px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+    color:#f9f4f3;
+    /* background: transparent; */
+}
+
+.branchP2{
+    margin: 82px 50px;
+}
